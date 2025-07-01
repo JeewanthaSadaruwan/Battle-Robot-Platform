@@ -1,5 +1,5 @@
 # Battle Robot Platform -- (Version 1.0)
-# [TERMINATOR] - A Combat Robot Project 🤖
+# TERMINATOR - A Combat Robot Project 🤖
 
 
 
@@ -32,10 +32,10 @@ This robot was brought to life by a passionate team of builders from **Team JASP
 
 ## Key Features 🌟
 
-*   **💥 Powerful Weapon:** [Briefly describe the weapon, e.g., A hardened S7 tool steel bar spinning at 8000 RPM.]
-*   **🛡️ Durable Armor:** [Describe the armor, e.g., Constructed with 5mm thick AR500 steel plates to withstand heavy impacts.]
-*   **💨 Agile Drivetrain:** [Describe the drive system, e.g., A two-wheel drive system powered by high-torque brushless motors, allowing for quick maneuverability.]
-*   **🔩 Robust Chassis:** [Describe the frame, e.g., A unibody chassis milled from a single block of 6061 aluminum for maximum rigidity.]
+*   **💥 Powerful Weapon:** A custom-built vertical drum spinner designed to tear into opponents and control the match.
+*   **🛡️ Durable Armor:** Constructed with tough steel plates to withstand the brutal impacts of combat.
+*   **💨 Agile Drivetrain:** A robust two-wheel drive system powered by geared 550-size DC motors for high torque and pushing power.
+*   **🔩 Robust Chassis:** A custom-fabricated chassis built from white steel, providing a strong and rigid frame.
 
 ---
 
@@ -45,20 +45,20 @@ The following table details the core components used in the construction of `[Yo
 
 | Category                  | Component                                | Quantity | Purpose / Notes                                                               |
 | ------------------------- | ---------------------------------------- | :------: | ----------------------------------------------------------------------------- |
-| **⚙️ Drivetrain**         | Brushless Motors (e.g., 2207 2500KV)     |    2     | Powers the wheels. Chosen for their high power-to-weight ratio.               |
-|                           | Wheels (e.g., 3-inch Foam Wheels)        |    2     | Provides traction and absorbs shock. Foam is great for grip on arena floors.  |
-|                           | Drive ESCs (e.g., BLHeli_32 35A)         |    2     | Electronic Speed Controllers for precise control of the drive motors.         |
-| **⚔️ Weapon System**      | Weapon Motor (e.g., DYS 5055 700KV)      |    1     | Powers the main weapon. Selected for high torque to get the weapon to speed.    |
-|                           | Weapon ESC (e.g., Hobbywing FlyFun 80A)  |    1     | A robust ESC to handle the high current draw of the weapon motor.             |
-|                           | Weapon (e.g., S7 Tool Steel Bar)         |    1     | The primary point of contact. Hardened S7 steel for impact resistance.        |
-| **🛡️ Chassis & Armor**    | Chassis Material (e.g., 6061 Aluminum)  |    1     | The main frame of the robot, housing all internal components.                 |
-|                           | Armor Plating (e.g., AR500 Steel)        |    4     | Protects the robot's internals from opponent attacks.                         |
-|                           | Fasteners (e.g., M3 & M4 Steel Screws)   |  ~50     | Holds the robot together under extreme stress.                                |
-| **⚡ Electronics & Control**| Battery (e.g., 4S 1500mAh LiPo)          |    1     | Powers the entire robot. 4S provides a good balance of voltage and weight.      |
-|                           | Radio Receiver (e.g., FlySky FS-iA6B)    |    1     | Receives signals from the transmitter to control the robot.                   |
-|                           | Radio Transmitter (e.g., FlySky FS-i6)   |    1     | The handheld remote control used to operate the robot during a match.         |
-|                           | Power Switch (e.g., XT90-S Anti-Spark)   |    1     | Safely connects and disconnects battery power to the entire system.           |
-|                           | Power Distribution Board (PDB)           |    1     | Distributes power from the battery to the various ESCs and electronics.       |
+| **⚙️ Drivetrain**         | 550-Size Brushed DC Motors (with Gearboxes) |    2     | Powers the wheels. Geared for high torque and pushing power.                    |
+|                           | Wheels (e.g., 4-inch Colson Wheels)      |    2     | Provides traction on the arena floor. *(Update with your wheel type)*          |
+|                           | Brushed Motor ESCs (e.g., 60A)           |    2     | Provides smooth, precise control for the brushed drive motors.                  |
+| **⚔️ Weapon System**      | High-Torque DC Motor (e.g., 775-size)    |    1     | Powers the vertical drum spinner. *(Update with your motor model)*              |
+|                           | High-Current Brushed ESC (e.g., 100A)    |    1     | A robust ESC to handle the high current draw of the weapon motor.             |
+|                           | Vertical Steel Drum Spinner              |    1     | The primary offensive tool, designed to store and deliver kinetic energy.     |
+| **🛡️ Chassis & Armor**    | White Steel Frame                        |    1     | The main frame of the robot, housing all internal components.                 |
+|                           | Steel Armor Plating                      |   ~4     | Protects the robot's internals from opponent attacks.                         |
+|                           | Fasteners (e.g., M4 & M5 Steel Screws)   |  ~50     | Holds the robot together under the extreme stress of combat.                  |
+| **⚡ Electronics & Control**| Drive Battery ([XS] 5000mAh 40C LiPo)    |    1     | Dedicated high-capacity battery for the drivetrain. *(Fill in cell count, e.g., 3S)* |
+|                           | Weapon Battery ([YS] 1000mAh 20C LiPo)   |    1     | Separate, lightweight battery for the weapon system. *(Fill in cell count, e.g., 4S)* |
+|                           | Radio Receiver (e.g., FlySky FS-iA6S)    |    1     | Receives signals from the transmitter to control the robot.                   |
+|                           | Radio Transmitter (FlySky FS-i6S)        |    1     | The handheld remote control used to operate the robot during a match.         |
+|                           | Power Switch (e.g., XT90-S Anti-Spark)   |    2     | Safely connects and disconnects power for the drive and weapon systems.       |
 
 ---
 
@@ -67,21 +67,19 @@ The following table details the core components used in the construction of `[Yo
 Each category of components serves a critical function in the robot's design and performance.
 
 ### ⚙️ Drivetrain
-The drivetrain is the robot's mobility system. It is responsible for all movement within the arena, including acceleration, turning, and positioning. A powerful and reliable drivetrain is crucial for outmaneuvering opponents and controlling the flow of the match. Our design uses two independent brushless motors, allowing for precise "tank-style" steering.
+The drivetrain is the robot's mobility system. It is responsible for all movement within the arena. A powerful and reliable drivetrain is crucial for outmaneuvering opponents. Our design uses two independent **brushed 550-size DC motors with gearboxes**, which provide excellent torque for pushing and precise "tank-style" steering.
 
 ### ⚔️ Weapon System
-This is the primary offensive system of the robot. Its goal is to disable or destroy the opposing robot. The system consists of a high-torque motor to spin the weapon, a robust speed controller (ESC) to handle the power, and the weapon itself, which is designed for maximum impact and durability.
+This is the primary offensive system of the robot. Its goal is to disable or destroy the opposing robot. Our system features a **vertical drum spinner**, powered by its own high-torque DC motor. This design allows us to deliver powerful, focused hits and disrupt our opponents.
 
 ### 🛡️ Chassis & Armor
-The chassis is the robot's skeleton, providing structural integrity and a mounting point for all other components. The armor is the robot's skin, designed to protect the vulnerable internals from the kinetic energy of opponent attacks. The choice of materials (like Aluminum for the frame and AR500 steel for armor) is a trade-off between weight, cost, and durability.
+The chassis is the robot's skeleton, and the armor is its skin. Our robot is built around a **custom white steel chassis** for maximum rigidity. This frame is protected by **steel armor plates**, chosen for their durability and ability to withstand heavy impacts from other robots.
 
 ### ⚡ Electronics & Control
-This category represents the "brains" and "nervous system" of the robot.
-*   **Battery:** The heart of the robot, providing the electrical power needed for all systems. We use a Lithium Polymer (LiPo) battery for its high energy density.
-*   **Radio System:** The radio transmitter and receiver form the communication link, allowing the driver to control the robot remotely.
-*   **Power Control:** The power switch and distribution board ensure that power is managed safely and delivered efficiently to where it's needed.
-
----
+This category represents the "brains" and "nervous system."
+*   **Dual Battery System:** We use a dual-battery configuration: a large **5000mAh LiPo** for the high-demand drivetrain and a separate **1000mAh LiPo** for the weapon. This isolates the systems and prevents power sags to the drive motors when the weapon hits.
+*   **Radio System:** The **FlySky FS-i6S** transmitter and receiver form the communication link, allowing the driver to control the robot remotely with precision.
+*   **Power Control:** We use **brushed ESCs** to ensure smooth and responsive control over both the drive and weapon motors. Separate power switches for each system ensure safe operation.
 
 ## Build & Competition History 🏆
 
@@ -90,8 +88,8 @@ This category represents the "brains" and "nervous system" of the robot.
 A detailed build log with more pictures can be found here: [Link to Build Log]
 
 ### Competition Results 🏅
-*   **[Event Name] [Year]:** [e.g., Placed 3rd, Went 2-2, Rookie of the Year]
-*   **[Another Event] [Year]:** [e.g., Qualified for Quarterfinals]
+*   **Top 10 - ElecroCombat Robot Battle Competition 2024**
+*   **Top 10 - LethalBot Robot Battle Competition 2024**
 
 ---
 
