@@ -1,16 +1,15 @@
 # Battle Robot Platform -- (Version 1.0)
 # [TERMINATOR] - A Combat Robot Project 🤖
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-<!-- Optional: Add other badges for build status, weight class, etc. -->
-<!-- e.g., [![Weight Class: 3lb](https://img.shields.io/badge/Weight%20Class-3lb%20(Beetleweight)-blue)]() -->
+
 
 ## Project Overview ✨
 
 Designed and built a battle robot capable of competing in combat robotics competitions. This project focused on creating a functional robot designed to compete in combat matches, showcasing engineering and design capabilities. `[Your Robot's Name]` is a **[e.g., vertical spinner, horizontal spinner, flipper, etc.]** robot built to be durable, powerful, and agile.
 
-![Your Robot's Name in action!](images/your-robot-image.jpg)
-<!-- Replace with a good photo or GIF of your robot. It's recommended to create an `images` folder for this. -->
+<p align="center">
+  <img src="pictures/robot.jpg" width="400" alt="Kobuki Robot"/>
+</p>
 
 ---
 
