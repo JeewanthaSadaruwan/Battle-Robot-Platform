@@ -5,13 +5,30 @@
 
 ## Project Overview ✨
 
-Designed and built a battle robot capable of competing in combat robotics competitions. This project focused on creating a functional robot designed to compete in combat matches, showcasing engineering and design capabilities. `[Your Robot's Name]` is a **[e.g., vertical spinner, horizontal spinner, flipper, etc.]** robot built to be durable, powerful, and agile.
+Designed and built a battle robot capable of competing in combat robotics competitions. This project focused on creating a functional robot designed to compete in combat matches, showcasing engineering and design capabilities.
 
 <p align="center">
   <img src="pictures/robot.jpg" width="400" alt="Kobuki Robot"/>
 </p>
 
 ---
+## Meet the Team 👋
+
+This robot was brought to life by a passionate team of builders from **Team JASPERN**. The core team includes:
+
+*   **Jeewantha Sadaruwan**
+*   **Nuwantha Senadhi Ranaweera**
+*   **Pasidu Pahasara**
+*   **Minura Ashen Samaramanna**
+
+
+
+<p align="center">
+  <img src="pictures/team.jpg" width="400" alt="Kobuki Robot"/>
+</p>
+
+---
+
 
 ## Key Features 🌟
 
