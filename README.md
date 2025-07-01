@@ -8,7 +8,7 @@
 Designed and built a battle robot capable of competing in combat robotics competitions. This project focused on creating a functional robot designed to compete in combat matches, showcasing engineering and design capabilities.
 
 <p align="center">
-  <img src="pictures/robot.jpg" width="400" alt="Kobuki Robot"/>
+  <img src="pictures/robot.jpg" width="400" alt="Team"/>
 </p>
 
 ---
@@ -24,7 +24,7 @@ This robot was brought to life by a passionate team of builders from **Team JASP
 
 
 <p align="center">
-  <img src="pictures/team.jpg" width="400" alt="Kobuki Robot"/>
+  <img src="pictures/team.jpg" width="400" alt="Team"/>
 </p>
 
 ---
@@ -83,9 +83,10 @@ This category represents the "brains" and "nervous system."
 
 ## Build & Competition History 🏆
 
-### Build Log 🛠️
-<!-- Optional: Link to a blog post, forum thread, or photo gallery documenting your build process. -->
-A detailed build log with more pictures can be found here: [Link to Build Log]
+<p align="center">
+  <img src="pictures/meee.jpg" width="400" alt="Kobuki Robot"/>
+</p>
+
 
 ### Competition Results 🏅
 *   **Top 10 - ElecroCombat Robot Battle Competition 2024**
@@ -101,14 +102,4 @@ A detailed build log with more pictures can be found here: [Link to Build Log]
 
 ---
 
-## License 📜
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
----
-
-## Acknowledgments 🙏
-
-*   Thanks to the **[Your University/Club Name]** for providing the workspace and tools.
-*   Shoutout to the combat robotics community at **[e.g., r/battlebots, SPARC]** for their invaluable advice.
-*   [Any other acknowledgments, e.g., sponsors, mentors, etc.]
